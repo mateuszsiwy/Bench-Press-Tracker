@@ -4,12 +4,14 @@ using Microsoft.Extensions.Hosting;
 using Bench_Press_Tracker.Models;
 using Bench_Press_Tracker.Repositories;
 using Microsoft.EntityFrameworkCore;
+using Bench_Press_Tracker;
 
 class Program
 {
     static async Task Main(string[] args)
     {
         var host = CreateHostBuilder(args).Build();
+        var userInterface = new UserInterface(host);
     }
 
 
