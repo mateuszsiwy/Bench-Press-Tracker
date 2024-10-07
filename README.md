@@ -5,14 +5,14 @@
 
 ## Features
 - Record bench press exercise sessions with start time, end time, duration, and comments.
-- Data persistence using either **raw SQL** or **Entity Framework** (you choose the implementation).
+- Data persistence using **Entity Framework**.
 - Dependency injection for managing repository access from the controller.
 - Clean architecture with separated layers for user input, business logic, and data access.
 
 ## Technologies
 - **.NET (C#)**
-- **Data Persistence**: You can choose between raw SQL or Entity Framework Core.
-- **Database**: You can choose either **SQLite** or **SQL Server**.
+- **Data Persistence**: Entity Framework Core.
+- **Database**: **SQL Server**.
 - **Dependency Injection**: To manage the repository access.
 
 ## Installation
